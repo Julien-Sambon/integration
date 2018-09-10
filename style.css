@@ -1,0 +1,106 @@
+.lorem
+{
+    height: 7rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.lorem:hover
+{
+    height: auto;
+}
+
+.size-text
+{
+    font-size: small;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td
+{
+    border: 1px solid black;
+}
+
+footer ul
+{
+    list-style: none;
+}
+
+a, a:hover
+{
+    text-decoration: none;
+}
+
+.background-black
+{
+    background-color: #424242;
+}
+
+footer a
+{
+    color: #f2f2f2;
+}
+
+.image1
+{
+    background: url(https://i.goopics.net/E2xn7.png) no-repeat;
+    background-size: contain;
+}
+
+.image2
+{
+    background: url(https://i.goopics.net/ZDY1G.png) no-repeat;
+    background-size: contain;
+}
+
+.image3
+{
+    background: url(https://i.goopics.net/p2QPY.png) no-repeat;
+    background-size: contain;
+}
+
+.image-hid
+{
+    visibility: hidden;
+}
+
+.masque
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    background-size: contain;
+}
+
+.hidtotal:hover
+{
+    opacity: 0;
+}
+
+.gold
+{
+    margin-top: 1rem;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.orange
+{
+    color: #ED7F10;
+}
+
+.txtcenter
+{
+    position: absolute;
+    color: white;
+    margin-top: 70%;
+}
+
+.underline-txt
+{
+    text-decoration:underline;
+    color: #424242;
+}
