@@ -1,3 +1,62 @@
+@font-face {
+    font-family: "Aniron";
+    src: url(fonts/aniron_regular.ttf);
+}
+
+@font-face
+{
+    font-family: "Party";
+    src: url(fonts/party_business.ttf);
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: "Aniron";
+}
+
+footer
+{
+    font-family: "Party";
+    font-size: 1.4em;
+}
+
+p
+{
+    font-family: "Party";
+}
+
+td
+{
+    font-family: "Party";
+}
+
+.fontsize
+{
+    font-size: 1.4em;
+}
+
+.fontsize2
+{
+    font-size: 1em;
+}
+
+.gollum
+{
+    font-size: 2em;
+}
+
+.bgdark
+{
+    background: url(https://i.goopics.net/xj5EW.png) repeat;
+    background-size: contain;
+}
+
+.bglight
+{
+    background: url(https://i.goopics.net/Qmv23.png) repeat-x;
+    background-size: contain;
+}
+
 .lorem
 {
     height: 7rem;
@@ -53,13 +112,13 @@ footer a
 
 .image2
 {
-    background: url(https://i.goopics.net/ZDY1G.png) no-repeat;
+    background: url(https://i.goopics.net/xj5lE.png) no-repeat;
     background-size: contain;
 }
 
 .image3
 {
-    background: url(https://i.goopics.net/p2QPY.png) no-repeat;
+    background: url(https://i.goopics.net/2ZWqA.png) no-repeat;
     background-size: contain;
 }
 
@@ -68,9 +127,30 @@ footer a
     visibility: hidden;
 }
 
+.navbar
+{
+    background-color:orange;
+    font-size:smaller;
+    width:100%;
+    padding:0%;
+}
+.navbar li{
+    width:100%;
+    margin:0% 1% 0% 1%;
+    border-style:solid;
+    border-width:0px 2px 0px 0px;
+    border-color:white;
+    text-align:center;
+}
+
+.navbar a
+{
+    color:white;
+}
+
 .masque
 {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(48, 48, 48, 0.4);
     background-size: contain;
 }
 
@@ -85,6 +165,12 @@ footer a
     position: absolute;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
+}
+
+.gimli
+{
+    margin-top: 1rem;
+    position: absolute;
 }
 
 .orange
@@ -103,4 +189,22 @@ footer a
 {
     text-decoration:underline;
     color: #424242;
+}
+
+#Fellows .nav-link.active{
+    background-color:unset; !important;
+    color:orange !important;
+    text-decoration:underline;
+}
+#Fellows .nav-link{
+    color:grey;
+    font-size:larger;
+    font-weight:bolder;
+}
+#Fellows ul span{
+    opacity:0;
+    font-family:"annatar";
+}
+#Fellows .nav-link:focus, .active span{
+    opacity:1 !important;
 }
