@@ -208,3 +208,8 @@ footer a
 #Fellows .nav-link:focus, .active span{
     opacity:1 !important;
 }
+
+.colorwhite
+{
+    color: white;
+}
